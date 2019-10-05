@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="M-Safiri" />
+        <meta name="keywords" content="M-Safiri" />
+        <meta name="author" content="M-Safiri">
+        <title>M-Safiri</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+        <!-- Fonts -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/fonts/flaticon/flaticon.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Css -->
+        <link href="assets/css/pace-theme-flash.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/icheck.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/img-upload.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- tobar :: start -->
+        <div class='page-topbar '>
+            <a href="dashboard.html" class='logo-area'><span></span></a>
+            <div class='quick-area'>
+                <div class='pull-left'>
+                    <ul class="info-menu left-links list-inline list-unstyled">
+                        <li class="sidebar-toggle-wrap">
+                            <a href="javascript:;" data-toggle="sidebar" class="sidebar_toggle"><i class="fa fa-bars"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class='pull-right'>
+                    <ul class="info-menu right-links list-inline list-unstyled">
+                        <li class="profile showopacity">
+                            <a href="#" data-toggle="dropdown" class="toggle" aria-expanded="false">
+                                <img src="assets/images/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
+                                <span>Smith Wright <i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul class="dropdown-menu profile animated fadeIn">
+                                <li><a href="settings.html"><i class="fa fa-wrench"></i> Settings</a></li>
+                                <li><a href="profile.html"><i class="fa fa-user"></i> Profile</a></li>
+                                <li class="last"><a href="login.html"><i class="fa fa-lock"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- tobar :: end -->
+        <!-- main-container :: start -->
+        <div class="page-container row-fluid container-fluid">
+            <!-- sidebar :: start -->
+            <div class="page-sidebar fixedscroll">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <ul class='wraplist'>
+                        <li class="open">
+                            <a href="dashboard.html">
+                                <i class="fa flaticon-dashboard"></i>
+                                <span class="title">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="add-drivers.html">
+                                <i class="fa flaticon-driver"></i>
+                                <span class="title">Add Drivers</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="assign-drivers.html">
+                                <i class="fa flaticon-driver"></i>
+                                <span class="title">Assign Drivers</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="add-route.html">
+                                <i class="fa flaticon-gps"></i>
+                                <span class="title">Add Route</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="add-vehicle.html">
+                                <i class="fa flaticon-car-steering-wheel"></i>
+                                <span class="title">Add Vehicle</span>
+                            </a>
+                        </li>
+                        <li class=""> 
+                            <a href="javascript:;">
+                                <i class="fa flaticon-progress-report"></i>
+                                <span class="title">Reports</span>
+                                <span class="arrow "></span>
+                            </a>
+                            <ul class="sub-menu" >
+                                <li>
+                                    <a class="" href="payment-report.html" >Payment Report</a>
+                                </li>
+                                <li>
+                                    <a class="" href="driver-payment-report.html" >Driver Payment Report</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- sidebar :: end -->
+            <!-- content area :: start -->
+            <section id="main-content" class=" ">
+                <div class="wrapper main-wrapper row" style=''>
+                    <div class='col-xs-12'>
+                        <div class="page-title">
+                            <div class="pull-left">
+                                <h1 class="title">Profile Settings</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12">
+                        <section class="box has-border-left-3">
+                            <header class="panel_header">
+                                <h2 class="title pull-left">Personal Information</h2>
+                            </header>
+                            <div class="content-body">    
+                                <div class="row">
+                                    <div class="form-container">
+                                        <form action="#" method="post">
+                                            <div class="row">
+                                                <div class="col-xs-12 mb-20">
+                                                    <div class="col-sm-12 avatar-img ">
+                                                        <div class="avatar-img-wrapper">
+                                                            <img src="assets/images/default-avatar.png" style="max-width:100px" alt="">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label class="form-label" for="formfield10">Upload File</label>
+                                                            <span class="desc">"JPG, GIF or PNG Max size of 800K"</span>
+                                                            <div class="controls">
+                                                                <input type="file" class="" id="formfield10" name="formfield10">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-12">
+                                                    <div class="col-lg-6 no-pl">
+                                                        <div class="form-group">
+                                                            <label class="form-label">User Name</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <input type="text" class="form-control" value="Smith Wright">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pr">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Email</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <input type="text" class="form-control" value="smithwright@gmail.com">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pl">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Birthdate</label>
+                                                            <div class="controls input-group date" id="datetimepicker1">
+                                                                <i class=""></i>
+                                                                <input type="text" class="form-control" value="17/01/1989">
+                                                                <span class="input-group-addon">
+                                                                    <span class="fa fa-calendar"></span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pr">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Gender</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <select class="form-control">
+                                                                    <option id="0">Select Gender</option>
+                                                                    <option id="1" selected>Male</option>
+                                                                    <option id="2">Female</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pl">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Country</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <select class="form-control" name="formfield5" >
+                                                                    <option id="0">Select Country</option>
+                                                                    <option id="1" selected>Country 1</option>
+                                                                    <option id="2">Country 2</option>
+                                                                    <option id="3">Country 3</option>
+                                                                    <option id="4">Country 4</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pr">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Phone Number</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <input type="number" class="form-control" value="9090909090">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pl">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Expertise</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <select class="form-control" name="formfield7" >
+                                                                    <option id="0">Select your expertise?</option>
+                                                                    <option id="1">Expertise 1</option>
+                                                                    <option id="2" selected>Expertise 2</option>
+                                                                    <option id="3">Expertise 3</option>
+                                                                    <option id="4">Expertise 4</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 no-pr">
+                                                        <div class="form-group">
+                                                            <label class="form-label">Password</label>
+                                                            <div class="controls">
+                                                                <i class=""></i>
+                                                                <input type="password" class="form-control" value="1234567890">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <button type="submit" class="btn btn-primary main-btn"><i class="fa fa-check"></i> Submit</button>
+                                                        </div>
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!-- content area :: end -->
+        </div>
+        <!-- main-container :: end -->
+        <!-- js -->
+        <script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/moment-with-locales.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+        <script src="assets/js/pace.min.js" type="text/javascript"></script>
+        <script src="assets/js/perfect-scrollbar.min.js" type="text/javascript"></script>
+        <script src="assets/js/viewportchecker.js" type="text/javascript"></script> 
+        <script src="assets/js/jquery.dataTables.min.js" type="text/javascript"></script>
+        <script src="assets/js/dataTables.bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/icheck.min.js" type="text/javascript"></script>
+        <script src="assets/js/img-upload.js" type="text/javascript"></script>
+        <script src="assets/js/daterangepicker.js" type="text/javascript"></script>
+        <script src="assets/js/scripts.js" type="text/javascript"></script>
+        <!--graph js-->
+        <script src="assets/js/highcharts.js" type="text/javascript"></script>
+        <script src="assets/js/exporting.js" type="text/javascript"></script>
+        <script src="assets/js/export-data.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            /*--------------------------------
+             Last 6 Months Activity :: Start
+             --------------------------------*/
+
+            Highcharts.chart('container1', {
+                chart: {
+                    type: 'column'
+                },
+                title: {
+                    text: 'Downloads'
+                },
+                xAxis: {
+                    categories: [
+                        'Jan',
+                        'Feb',
+                        'Mar',
+                        'Apr',
+                        'May',
+                        'Jun',
+                        'Jul',
+                        'Aug',
+                        'Sep',
+                        'Oct',
+                        'Nov',
+                        'Dec'
+                    ],
+                    crosshair: true
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Downloads'
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                    pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                            '<td style="padding:0"><b>{point.y} Downloads</b></td></tr>',
+                    footerFormat: '</table>',
+                    shared: true,
+                    useHTML: true
+                },
+                plotOptions: {
+                    column: {
+                        pointPadding: 0.2,
+                        borderWidth: 0
+                    }
+                },
+                series: [{
+                        name: 'Android',
+                        color: '#0d3a61',
+                        data: [1340, 1560, 4300, 8854, 5600, 4378, 1340, 1560, 4300, 8854, 5600, 4378, ]
+                    }, {
+                        name: 'IOS',
+                        color: '#2196F3',
+                        data: [943, 1232, 543, 2498, 4590, 7609, 454, 1324, 4300, 8854, 5600, 4378, ]
+                    }]
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+[25-Jul-2019 09:34:39 Etc/GMT] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/itechi9o/public_html/M-Safiri/africastalking/example/regUserget.php on line 7
+[25-Jul-2019 09:35:11 Etc/GMT] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/itechi9o/public_html/M-Safiri/africastalking/example/regUserget.php on line 7
+[26-Jul-2019 08:45:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/itechi9o/public_html/M-Safiri/africastalking/example/vendor/africastalking/africastalking/src/AfricasTalking.php on line 9
+[26-Jul-2019 08:45:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/itechi9o/public_html/M-Safiri/africastalking/example/vendor/africastalking/africastalking/src/AfricasTalking.php on line 9
+[26-Jul-2019 08:45:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/itechi9o/public_html/M-Safiri/africastalking/example/vendor/africastalking/africastalking/src/AfricasTalking.php on line 9

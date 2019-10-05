@@ -1,0 +1,25 @@
+[16-Mar-2019 13:10:49 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 13
+[16-Mar-2019 13:10:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 15
+[16-Mar-2019 13:10:49 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 20
+[16-Mar-2019 13:10:49 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 30
+[16-Mar-2019 13:10:51 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 13
+[16-Mar-2019 13:10:51 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 15
+[16-Mar-2019 13:10:51 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 20
+[16-Mar-2019 13:10:51 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 30
+[16-Mar-2019 13:11:11 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 13
+[16-Mar-2019 13:11:11 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 15
+[16-Mar-2019 13:11:11 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 20
+[16-Mar-2019 13:11:11 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/checkLogin.php on line 30
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: driver_name in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 6
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: contact_no in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 7
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: car_type in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 8
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: model_no in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 9
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: plate_no in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 10
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 11
+[10-May-2019 07:22:21 Etc/GMT] PHP Notice:  Undefined index: repairs in /home/itechi9o/public_html/M-Safiri/Website/php/insertVehicleData.php on line 12
+[10-May-2019 07:58:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/itechi9o/public_html/M-Safiri/Website/php/getAllVehicleData.php on line 3
+[10-May-2019 07:58:26 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/getAllVehicleData.php on line 11
+[14-May-2019 20:05:31 Etc/GMT] PHP Notice:  Undefined index: id in /home/itechi9o/public_html/M-Safiri/Website/php/getVehicleDetail.php on line 4
+[14-May-2019 20:05:31 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/getVehicleDetail.php on line 7
+[14-May-2019 20:05:31 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/getVehicleDetail.php on line 20
+[14-May-2019 20:05:31 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/itechi9o/public_html/M-Safiri/Website/php/getVehicleDetail.php on line 37
